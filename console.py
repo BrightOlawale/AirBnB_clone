@@ -27,7 +27,7 @@ class HBNBCommand(cmd.Cmd):
 
     def emptyline(self):
         """ overwriting the emptyline method """
-        return False
+        pass
 
     def do_quit(self, arg):
         """Quit command to exit the program"""
